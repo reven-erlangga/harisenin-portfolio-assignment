@@ -20,10 +20,7 @@ const Sidebar = () => {
               <SidebarItem title="Tentang Saya" href="/" />
             </li>
             <li>
-              <SidebarItem
-                title="Pengalaman Bekerja"
-                href={`/work-experience`}
-              />
+              <SidebarItem title="Portofolio" href={`/portfolio`} />
             </li>
             <li>
               <SidebarItem title="Kontak Saya" href={`/contact`} />
